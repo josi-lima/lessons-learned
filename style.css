@@ -19,7 +19,7 @@ body {
 #titulo {
   font: 3.6rem Permanent Marker, sans-serif;
   font-weight: 900;
-  color: hwb(0 100% 0%);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -27,6 +27,7 @@ body {
 .photo {
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 #minha_foto {
@@ -40,16 +41,18 @@ body {
 
 /* Section: personal description / articles about learning */
 .main-container {
-  margin: 2vmax 0 0 20vmax;
-  width: 70%;
+  margin: 2vmax auto;
+  max-width: 80%;
+  gap: 2vmax;
 }
 
 #description , #article {
   background-color: rgba(45, 190, 239, 0.639);
   text-align: center;
+  justify-content: center;
   font: 1.5rem Lato, sans-serif;
   line-height: 2.7rem;
-  width: 70%;
+  margin: 2vmax auto;
   padding: 2vmax;
   border-radius: 2rem;
 }
@@ -87,7 +90,9 @@ a:visited {
 .title-hard-skills {
   font: 2.2rem Lato, sans-serif;
   font-weight: 900;
-  text-align: justify;
+  text-align: center;
+  max-width: 70%;
+  margin: 6vmin auto;
 }
 
 ol , ul {
