@@ -1,0 +1,111 @@
+/* General Settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&family=Redressed&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+body {
+  background-color: rgb(253, 251, 251);
+  font: 16px Lato, sans-serif;
+  margin: 0;
+}
+
+/* header */
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(246, 199, 21);
+}
+
+#titulo {
+  font: 3.6rem Permanent Marker, sans-serif;
+  font-weight: 900;
+  color: hwb(0 100% 0%);
+  text-align: center;
+}
+
+/* Section: about me */
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+#minha_foto {
+  position: relative;
+  max-width: 70%;
+  max-height: 90%;
+  margin-top: 12rem;
+  border: solid rgb(45, 189, 239);
+  border-radius: 2rem;
+}
+
+/* Section: personal description / articles about learning */
+.main-container {
+  margin: 2vmax 0 0 20vmax;
+  width: 70%;
+}
+
+#description , #article {
+  background-color: rgba(45, 190, 239, 0.639);
+  text-align: center;
+  font: 1.5rem Lato, sans-serif;
+  line-height: 2.7rem;
+  width: 70%;
+  padding: 2vmax;
+  border-radius: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* Section: lessons learned / lessons to be learned */
+.container-list {
+  gap: 8vmax;
+  margin: 2vmax auto;
+  max-width: 70%;
+  padding: 2vmax;
+  border-radius: 2rem;
+  background-color: rgba(45, 190, 239, 0.639);
+}
+
+@media ( min-width : 70rem ) {  /* desktop format */
+
+  .main-container , .container-list {
+    display: flex;
+    justify-content: center;
+    max-width: 70%; }
+}
+
+.title-hard-skills {
+  font: 2.2rem Lato, sans-serif;
+  font-weight: 900;
+  text-align: justify;
+}
+
+ol , ul {
+  font: 1.5rem Lato, sans-serif;
+  white-space: wrap;
+  line-height: 2.7rem;
+  max-width: 80%;
+}
+
+/* Footer */
+.container-footer {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 6vmax;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 199, 21);
+  color: rgb(19, 18, 18);
+  font-size: 2.3vmin;
+  font-weight: 900;
+}
