@@ -14,4 +14,4 @@ This is a page displaying the topics taught during the first two weeks of course
 <br>
 <strong>[POR]</strong>
 <br>
-Esta é uma página que exibe os tópicos ensinados durante as duas primeiras semanas de curso no bootcamp de desenvolvimento web [Trybe](https://www.betrybe.com/). Há também uma breve descrição biográfica do aluno e uma lista de lições, que serão abordadas ao longo do curso.
+Esta é uma página que exibe os tópicos ensinados durante as duas primeiras semanas de curso no bootcamp de desenvolvimento web Trybe. Há também uma breve descrição biográfica do aluno e uma lista de lições, que serão abordadas ao longo do curso.
